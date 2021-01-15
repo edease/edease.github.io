@@ -1285,8 +1285,8 @@ fieldset[disabled] a.btn {
 
 .btn-default {
 	color: #333;
-	background-color: var(--btn_bkg_col);
-	color: var(--btn_text_col);
+	background-color: var(--gpi_button_bkg_col);
+	color: var(--gpi_button_txt_col);
 	border-color: #ccc;
 }
 
