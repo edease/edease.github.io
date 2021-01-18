@@ -8,7 +8,7 @@
 	--gpi_table_alt_col: #c4cfd5; /* Alternating colour for GPI survey table background */
 	--gpi_button_bkg_col: #59c1d7; /* Background colour for buttons Edease blue: #59c1d7  */
 	--gpi_button_txt_col: #ffffff; /* Text colour for buttons */
-	--gpi_quad_circle_colour: #ffffff; /* (GPI default : #8bafc7) */
+	--gpi_quad_circle_colour: #59c1d7; /* (GPI default : #8bafc7) */
 	--gpi_quad_start_colour: #ffffff; /* (GPI default : #a9d5f5) */
 	--gpi_quad_end_colour: #ffffff; /* (GPI default : #3277a8) */
 	--gpi_quad_axis_colour: #132238; /* (GPI default : #253959) */
