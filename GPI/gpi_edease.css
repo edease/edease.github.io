@@ -25,6 +25,18 @@
 	--gpi_link_hover_col: #ff0000; /* Colour for the link hover colour */
 }
 
+.gpi_link {
+	color: var(--gpi_link_col);
+	border: 2px solid var(--gpi_link_col);
+	border-radius: 24px;
+	padding: 6px;
+}
+
+	.gpi_link:hover {
+		color: var(--gpi_link_hover_col);
+		cursor: pointer;
+	}
+
 .GPI_menu {
 	width: 100%;
 	position: absolute;
