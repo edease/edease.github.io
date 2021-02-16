@@ -8,15 +8,62 @@
 	--gpi_table_alt_col: #c4cfd5; /* Alternating colour for GPI survey table background */
 	--gpi_button_bkg_col: #59c1d7; /* Background colour for buttons Edease blue: #59c1d7  */
 	--gpi_button_txt_col: #ffffff; /* Text colour for buttons */
-	--gpi_quad_circle_colour: #59c1d7; /* (GPI default : #8bafc7) */
-	--gpi_quad_start_colour: #ffffff; /* (GPI default : #a9d5f5) */
-	--gpi_quad_end_colour: #ffffff; /* (GPI default : #3277a8) */
-	--gpi_quad_axis_colour: #132238; /* (GPI default : #253959) */
-	--gpi_quad_grid_colour: #c4c8cd; /* (GPI default : #a9d5f5) */
-	--gpi_quad_marker_colour: #59c1d7; /* Edease blue (GPI default : #f0210a) */
-	--gpi_quad_text_colour: #ffffff; /* GPI default : #ffffff */
-	--gpi_link_col: #59c1d7; /* Edease blue : #59c1d7 */
+	--gpi_quad_circle_colour: #59c1d7; /* Colour for circle on quadrant / STEN score graphics */
+	--gpi_quad_show_circle: 0; /* If greater than 0, the circle backgrounds are plotted*/
+	--gpi_quad_shadow_on: 0; /* If greater than 0, shadows are plotted */
+	--gpi_quad_start_colour: #ffffff; /* Start colour for quadrant / STEN score gradient colour */
+	--gpi_quad_end_colour: #ffffff; /* End colour for quadrant / STEN score gradient colour */
+	--gpi_quad_axis_colour: #132238; /* Colour for quadrant / STEN score axes */
+	--gpi_quad_grid_colour: #c4c8cd; /* Colour for quadrant / STEN score grid */
+	--gpi_quad_marker_colour: #59c1d7; /* Colour for quadrant / STEN score location marker (Edease blue) */
+	--gpi_quad_text_colour: #17171b; /* Colour for quadrant text */
+	--gpi_quad_label_text_colour: #ffffff; /* Colour for quadrant / STEN score axis label text */
+	--gpi_link_col: #59c1d7; /* Colour for links (Edease blue) */
+	--gpi_menu_bar_bgk_col: #000000; /* Colour for the navigation menu bar background */
+	--gpi_menu_text_col: #ffffff; /* Colour for the navigation menu bar text */
+	--gpi_menu_item_bkg_col: #000333; /* Colour for the navigation menu bar text */
+	--gpi_link_hover_col: #ff0000; /* Colour for the link hover colour */
 }
+
+.GPI_menu {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+}
+
+.GPI_burger_bar {
+	background-color: var(--gpi_menu_bar_bgk_col);
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+	.GPI_burger_bar a {
+		color: var(--gpi_menu_text_col);
+	}
+
+.GPI_dropdown {
+	width: 400px;
+	color: var(--gpi_menu_text_col);
+	background-color: var(--gpi_menu_item_bkg_col);
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+	.GPI_dropdown a {
+		color: var(--gpi_menu_text_col);
+		line-height: 200%;
+	}
+
+		.GPI_dropdown a:hover {
+			color: var(--gpi_link_hover_col);
+			cursor: pointer;
+		}
 
 .gpi_h1 {
 	color: var(--gpi_h1_col);
@@ -99,7 +146,7 @@ div.gpi_surv_tr:nth-child(odd) {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	vertical-align: middle;
-	text-align:left;
+	text-align: left;
 }
 
 .gpi_surv_td {
@@ -121,8 +168,7 @@ div.gpi_surv_tr:nth-child(odd) {
 }
 
 .gpi_surv_button_box {
-
-	text-align:center;
+	text-align: center;
 }
 
 .gpi_button {
@@ -141,16 +187,16 @@ div.gpi_surv_tr:nth-child(odd) {
 	font-size: 16px;
 }
 
-.gpi_button:hover {
-	cursor:pointer;
-}
+	.gpi_button:hover {
+		cursor: pointer;
+	}
 
 input[type='radio'] {
 	transform: scale(1.5);
 }
 
 input:hover {
-	cursor:pointer;
+	cursor: pointer;
 }
 
 @media only screen and (max-width: 768px) {
@@ -207,7 +253,6 @@ input:hover {
 	.plus:hover {
 		cursor: pointer;
 	}
-
 
 @media only screen and (max-width: 768px) {
 	.content_box {
