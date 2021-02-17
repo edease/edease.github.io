@@ -50,6 +50,8 @@ The CSS variables are defined under the ```:root``` selector in the CSS file. Th
    <tr><td>--gpi_link_hover_col</td><td>Colour for the link hover colour</td></tr>
 </table>
 
+[Top](#Edease-Test-Website)
+
 ### Navigation menu formatting
 The formatting root variables for the Quadrant visualisations are indicated in the figure below.
 
@@ -76,6 +78,8 @@ The formatting root variables for the Quadrant visualisations are indicated in t
    <tr><td>--gpi_quad_shadow_on</td><td>If greater than 0, shadows are plotted. Set to zero to omit shadow effects.</td></tr>
 </table>
 
+[Top](#Edease-Test-Website)
+
 ### STEN score formatting
 The formatting root variables for the STEN score scales are indicated in the figure below. Note that the both the circle and shadow effects can be optionally omitted.
 
@@ -92,6 +96,8 @@ The formatting root variables for the STEN score scales are indicated in the fig
    <tr><td>--gpi_quad_show_circle</td><td>If greater than 0, the circle backgrounds are plotted. Set to zero to omit circle.</td></tr>
    <tr><td>--gpi_quad_shadow_on</td><td>If greater than 0, shadows are plotted. Set to zero to omit shadow effects.</td></tr>
 </table>
+
+[Top](#Edease-Test-Website)
 
 <br><br>
 
