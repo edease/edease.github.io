@@ -59,6 +59,8 @@ The formatting root variables for the Quadrant visualisations are indicated in t
 
 ![Figure 1](images/menu_formating.png)
 
+[Top](#Edease-Test-Website)
+
 <br><br>
 
 ### Quadrant visualisation formatting
