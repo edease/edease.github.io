@@ -59,9 +59,9 @@ The formatting root variables for the Quadrant visualisations are indicated in t
 
 ![Figure 1](images/menu_formating.png)
 
-[Top](#Edease-Test-Website)
-
 <br><br>
+
+[Top](#Edease-Test-Website)
 
 ### Quadrant visualisation formatting
 The formatting root variables for the Quadrant visualisations are indicated in the figure below. Note that the both the circle and shadow effects can be optionally omitted.
