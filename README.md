@@ -1,4 +1,4 @@
-# Edease Test Website
+# Edease Test Website for GPI Components
 
 ## Contents
 
@@ -24,7 +24,7 @@ This repository serves as a test host website environment for the GPI components
 
 https://edease.github.io/
 
-[Back to top](#Edease-Test-Website)
+[Back to top](#Edease-Test-Website-for-GPI-Components-for-GPI-Components)
 
 ### Incorporating the GPI components
 In order to incorporate the GPI components, one requires:
@@ -43,7 +43,7 @@ In this host website example, two pages incorporate these elements:
 
 **N.B.** Currently, the 'sign-up' and 'log-in' forms are implemented directly in HTML. These need to be included as they are in the files above. This may change in the future, with the GPI JavaScript writing these forms.
 
-[Back to top](#Edease-Test-Website)
+[Back to top](#Edease-Test-Website-for-GPI-Components)
 
 #### GPI specific CSS file
 In the ```<head>``` section of the HTML file, load the [gpi_edease.css](GPI/gpi_edease.css) file.
@@ -62,7 +62,7 @@ In the ```<head>``` section of the HTML file, load the [gpi_edease.css](GPI/gpi_
 </head>
 ```
 
-[Back to top](#Edease-Test-Website)
+[Back to top](#Edease-Test-Website-for-GPI-Components)
 
 #### GPI JavaScript
 The GPI JavaScript must be loaded and a ```<div>``` component provided with the id ```GPI_content```. 
@@ -83,7 +83,7 @@ The function ```init()``` must be called after this ```<div>``` element and any 
 
 Note that here the ```<div>``` takes its styling from the ```content_box``` class, defined in the [gpi_edease.css](GPI/gpi_edease.css) file.
 
-[Back to top](#Edease-Test-Website)
+[Back to top](#Edease-Test-Website-for-GPI-Components)
 
 #### Additional fonts
 The GPI component uses a 'hamburger' icon for the navigation menu, which is provided by loading the additional CSS file:
@@ -97,17 +97,17 @@ The GPI component uses a 'hamburger' icon for the navigation menu, which is prov
 </head>
 ```
 
-[Back to top](#Edease-Test-Website)
+[Back to top](#Edease-Test-Website-for-GPI-Components)
 
 #### Sign-up and log-in pages
 The HTML for the 'sign-up' and 'log-in' pages is contained within the ```GPI_content``` ```<div>``` element. The ids attached to the form elements are used by the GPI JavaScript to get the input values (see source code of HTML files for details). These elements also use formatting defined in the [gpi_edease.css](GPI/gpi_edease.css) file.
 
-[Back to top](#Edease-Test-Website)
+[Back to top](#Edease-Test-Website-for-GPI-Components)
 
 ## CSS formatting of the GPI components
 Formatting of the GPI components should be done entirely via the [gpi_edease.css](GPI/gpi_edease.css) file in the GPI folder. All client-side functionality is provided by GPI.js, which is loaded from the Glowinkowski site. This reads any defined CSS variables in the document object model (DOM) and these are then used in the JavaScript routines to render the GPI component visualisations and GPI-specific formatting.
 
-[Back to top](#Edease-Test-Website)
+[Back to top](#Edease-Test-Website-for-GPI-Components)
 
 ### CSS variables
 The CSS variables are defined under the ```:root``` selector in the [gpi_edease.css](GPI/gpi_edease.css) file. The table below lists those variables currently defined.
@@ -140,7 +140,7 @@ The CSS variables are defined under the ```:root``` selector in the [gpi_edease.
    <tr><td>--gpi_link_hover_col</td>   <td>#ff0000</td>   <td>Colour for the link hover colour</td></tr>
 </table>
 
-[Back to top](#Edease-Test-Website)
+[Back to top](#Edease-Test-Website-for-GPI-Components)
 
 ### Navigation menu formatting
 The formatting root variables for the Quadrant visualisations are indicated in the figure below.
@@ -151,7 +151,7 @@ The formatting root variables for the Quadrant visualisations are indicated in t
 
 <br><br>
 
-[Back to top](#Edease-Test-Website)
+[Back to top](#Edease-Test-Website-for-GPI-Components)
 
 ### Quadrant visualisation formatting
 The formatting root variables for the Quadrant visualisations are indicated in the figure below. Note that the both the circle and shadow effects can be optionally omitted.
@@ -162,7 +162,7 @@ The formatting root variables for the Quadrant visualisations are indicated in t
 
 <br><br>
 
-[Back to top](#Edease-Test-Website)
+[Back to top](#Edease-Test-Website-for-GPI-Components)
 
 #### Boolean elements for Quadrants
 
@@ -172,7 +172,7 @@ The formatting root variables for the Quadrant visualisations are indicated in t
    <tr><td>--gpi_quad_shadow_on</td><td>If greater than 0, shadows are plotted. Set to zero to omit shadow effects.</td></tr>
 </table>
 
-[Back to top](#Edease-Test-Website)
+[Back to top](#Edease-Test-Website-for-GPI-Components)
 
 ### STEN score formatting
 The formatting root variables for the STEN score scales are indicated in the figure below. Note that the both the circle and shadow effects can be optionally omitted.
@@ -183,7 +183,7 @@ The formatting root variables for the STEN score scales are indicated in the fig
 
 <br><br>
 
-[Back to top](#Edease-Test-Website)
+[Back to top](#Edease-Test-Website-for-GPI-Components)
 
 #### Boolean elements for STEN scores
 
@@ -193,7 +193,7 @@ The formatting root variables for the STEN score scales are indicated in the fig
    <tr><td>--gpi_quad_shadow_on</td><td>If greater than 0, shadows are plotted. Set to zero to omit shadow effects.</td></tr>
 </table>
 
-[Back to top](#Edease-Test-Website)
+[Back to top](#Edease-Test-Website-for-GPI-Components)
 
 <br><br>
 
