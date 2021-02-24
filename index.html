@@ -7,8 +7,6 @@
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta content="Webflow" name="generator" />
     <link href="edease.css" rel="stylesheet" type="text/css" />
-    <!--To use Font Awesome icons-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!--My edit <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>-->
     <script type="text/javascript">WebFont.load({ google: { families: ["PT Sans:400,400italic,700,700italic", "Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic", "Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic", "Varela Round:400", "Noto Sans:regular,italic,700,700italic", "Maven Pro:regular,500,600,700,800,900"] } });</script><!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif]-->
@@ -28,330 +26,149 @@
     <!-- END INCLUDE-->
 </head>
 <body>
-    <div class="header">
-        <div class="navigation-wrap">
-            <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="navigation w-nav">
-                <div class="navigation-container-2">
-                    <div class="navigation-left">
-                        <a href="" aria-current="page" class="brand-4 w-nav-brand w--current">
-                            <img src="https://uploads-ssl.webflow.com/5eabc01e416cee2bb044b53a/5eabc01e416ceea7e544b5c0_edease-black.svg" width="162" alt="" class="image-4" />
-                        </a>
-                    </div>
-                    <div class="navigation-right">
-                        <nav role="navigation" class="nav-menu-2 w-nav-menu">
-                            <a href="https://www.edease.com/coronavirus" class="navigation-link-2 w-nav-link">Coronavirus Response Tool</a>
-                            <a href="https://www.edease.com/employers" class="navigation-link-2 w-nav-link">Employers</a>
-                            <a href="https://www.edease.com/learners" class="navigation-link-2 w-nav-link">Learners</a>
-                            <a href="https://www.edease.com/contact" class="navigation-link-2 w-nav-link">Contact</a>
-                        </nav>
-                    </div>
-                </div>
-            </div>
 
-            <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease-out" data-easing2="ease-out" role="banner" class="navigation-mob w-nav">
-                <div class="navigation-container-mob-2">
-                    <a href="/" aria-current="page" class="brand-3 w-nav-brand w--current">
-                        <img src="https://uploads-ssl.webflow.com/5eabc01e416cee2bb044b53a/5eabc01e416ceea7e544b5c0_edease-black.svg" width="162" alt="" class="logo" />
-                    </a>
-                    <nav role="navigation" class="mobile-nav-2 w-nav-menu">
-                        <a href="/coronavirus" class="mobile-nav-link-2 w-nav-link">Coronavirus Response Tool</a>
-                        <a href="/employers" class="mobile-nav-link-2 w-nav-link">Employers</a>
-                        <a href="/learners" class="mobile-nav-link-2 w-nav-link">Learners</a>
-                        <a href="/contact" class="mobile-nav-link-2 w-nav-link">Contact</a>
-                    </nav>
-                    <div class="menu-mob w-nav-button">
-                        <div data-w-id="8f6cfaac-6868-5578-a57c-e6b2c7b518db" class="burger-3">
-                            <div class="b3-top-wrap">
-                                <div data-w-id="8f6cfaac-6868-5578-a57c-e6b2c7b518dd" class="b3-bar1-2"></div>
-                                <div data-w-id="8f6cfaac-6868-5578-a57c-e6b2c7b518de" class="b3-middlebar-base-2">
-                                    <div class="b3-middlebar-top"></div>
-                                    <div data-w-id="8f6cfaac-6868-5578-a57c-e6b2c7b518e0" class="b3-middlebar-2"></div>
-                                </div>
-                                <div data-w-id="8f6cfaac-6868-5578-a57c-e6b2c7b518e1" class="b3-bar3-2"></div>
-                            </div>
+    <!-- INCLUDE THIS IN YOUR PAGE-->
+    <script type="text/javascript" charset="utf-8" src="https://glowinkowski.github.io/GPI/GPI.js"></script>
+    <div id="GPI_content" class="gpi_component">
+
+        <div class="gpi_menu_bar">
+            <div class="gpi_logo_container">
+                <a href="index.html"><img class="gpi_logo" src="images/edease_logo.svg" /></a>
+            </div>
+            <div class="gpi_burger_container">
+                <a href="javascript:void(0);" onclick="toggleMenu('GPI_dropdown_id')"><img class="gpi_burger" src="images/burger_black.png" /></a>
+            </div>
+        </div>
+        <div id="GPI_dropdown_id" class="gpi_dropdown" style="display:none">
+            <a href="login.html">Login</a><br />
+            <a href="signup.html">Sign up</a><br />
+            <a href="http://www.glowinkowski.com">Glowinkowski International</a><br />
+        </div>
+
+        <div class="gpi_content">
+
+            <h2>Sign-up</h2>
+
+            <div class="gpi_form_container">
+                <form class="form-horizontal">
+                    <p>Already have an account? <a href="login.html" class="gpi_link"><b>Log in here</b></a>.</p>
+                    <h4 class="gpi_h4">Create a new account</h4>
+                    <hr />
+                    <div class="form-group">
+                        <label class="col-md-2 control-label" for="email">Email</label>
+                        <div class="col-md-10">
+                            <input class="form-control" id="email" type="text" />
                         </div>
                     </div>
-                </div>
+                    <div class="form-group">
+                        <label class="col-md-2 control-label" for="pwd">Password</label>
+                        <div class="col-md-10">
+                            <input class="form-control" id="pwd" type="password" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-2 control-label" for="confirm_pwd">Confirm password</label>
+                        <div class="col-md-10">
+                            <input class="form-control" id="confirm_pwd" type="password" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-2 control-label" for="first_name">First name</label>
+                        <div class="col-md-10">
+                            <input class="form-control" id="first_name" type="text" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-2 control-label" for="last_name">Last name</label>
+                        <div class="col-md-10">
+                            <input class="form-control" id="last_name" type="text" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-2 control-label" for="access_code">Access Token</label>
+                        <div class="col-md-10">
+                            <input class="form-control" id="access_code" type="text" />
+                        </div>
+                    </div>
+
+                    <!--Location information-->
+                    <h4 class="gpi_h4">Location</h4>
+                    <hr />
+                    <div class="form-group">
+                        <label class="col-md-2 control-label" for="country">Country</label>
+                        <div class="col-md-10">
+                            <select class="form-control" id="country" onchange="countrySelected()">
+                                <!--To be allocated-->
+                                <option value="0"></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-2 control-label" for="region">Region/Province</label>
+                        <div class="col-md-10">
+                            <select class="form-control" id="region" onchange="regionSelected()">
+                                <!--To be allocated-->
+                                <option value="0"></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-2 control-label" for="state">State/County</label>
+                        <div class="col-md-10">
+                            <select class="form-control" id="state">
+                                <!--To be allocated-->
+                                <option value="0"></option>
+                            </select>
+                        </div>
+                    </div>
+
+
+                    <!--Profile information-->
+                    <h4 class="gpi_h4">Profile information</h4>
+                    <hr />
+                    <div class="form-group">
+                        <label class="col-md-2 control-label" for="gender">Gender</label>
+                        <div class="col-md-10">
+                            <select class="form-control" id="gender">
+                                <option value="1">Prefer not to say</option>
+                                <option value="2">Male</option>
+                                <option value="3">Female</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-2 control-label" for="age_range">Age range</label>
+                        <div class="col-md-10">
+                            <select class="form-control" id="age_range">
+                                <option value="1">Prefer not to say</option>
+                                <option value="8">Under 21</option>
+                                <option value="9">21-30</option>
+                                <option value="10">31-40</option>
+                                <option value="11">41-50</option>
+                                <option value="12">51-60</option>
+                                <option value="13">61-65</option>
+                                <option value="14">Over 65</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <input id="submit_button" type="button" class="btn btn-default" value="Sign-up" onclick="submitSignUpForm()" />
+                        </div>
+                    </div>
+                </form>
             </div>
-        </div>
-    </div>
 
-    <!--
-
-    <div class="hero">
-        <div class="container-flex">
-            <h1 class="hero-h1"><span class="hero-h1-change">We teach the world about jobs</span></h1>
-            <p class="paragraph hero">
-                Videos that help companies showcase their workforce, their culture and the opportunities they offer while assessing candidates base skills and cultural fit.
-            </p>
-            <div class="hero-wrap">
-                <div class="hero-split-wrap">
-                    <a href="#our-mission" class="hero-image-link w-inline-block">
-                        <img src="https://uploads-ssl.webflow.com/5eabc01e416cee2bb044b53a/5eabc01e416cee09f144b56e_downarrow.svg" width="60" data-w-id="568e609b-7ac8-9cd5-5802-56e7b25e934d" alt="" class="hero-image" />
-                    </a>
-                    <a href="#our-mission" class="hero-image-link-mob w-inline-block">
-                        <img src="https://uploads-ssl.webflow.com/5eabc01e416cee2bb044b53a/5eabc01e416cee09f144b56e_downarrow.svg" width="50" data-w-id="133b40a4-b246-d870-e26e-d9c9d64b78c5" alt="" class="hero-image" />
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    -->
-
-    <div class="pagecontent-section">
-        <!--<div class="container" >-->
-        <div class="div-block-2">
-            <h1 id="our-mission-h1" class="h1-4">The Global Predisposition Indicator (GPI)</h1>
-        </div>
-        <!-- INCLUDE THIS IN YOUR PAGE-->
-        <script type="text/javascript" charset="utf-8" src="https://glowinkowski.github.io/GPI/GPI.js"></script>
-        <div id="GPI_content" class="content_box">
-            <p>Already have an account? <a href="login.html" class="gpi_link"><b>Log in here</b></a>.</p>
-            <form class="form-horizontal">
-                <h4>Create a new account</h4>
-                <hr />
-                <div class="form-group">
-                    <label class="col-md-2 control-label" for="email">Email</label>
-                    <div class="col-md-10">
-                        <input class="form-control" id="email" type="text" />
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label class="col-md-2 control-label" for="pwd">Password</label>
-                    <div class="col-md-10">
-                        <input class="form-control" id="pwd" type="password" />
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label class="col-md-2 control-label" for="confirm_pwd">Confirm password</label>
-                    <div class="col-md-10">
-                        <input class="form-control" id="confirm_pwd" type="password" />
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label class="col-md-2 control-label" for="first_name">First name</label>
-                    <div class="col-md-10">
-                        <input class="form-control" id="first_name" type="text" />
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label class="col-md-2 control-label" for="last_name">Last name</label>
-                    <div class="col-md-10">
-                        <input class="form-control" id="last_name" type="text" />
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label class="col-md-2 control-label" for="access_code">Access Token</label>
-                    <div class="col-md-10">
-                        <input class="form-control" id="access_code" type="text" />
-                    </div>
-                </div>
-
-                <!--Location information-->
-                <h4>Location</h4>
-                <hr />
-                <div class="form-group">
-                    <label class="col-md-2 control-label" for="country">Country</label>
-                    <div class="col-md-10">
-                        <select class="form-control" id="country" onchange="countrySelected()">
-                            <option value="" selected disabled hidden>Select your country</option>
-                            <option value="1">Ireland</option>
-                            <option value="2">Nigeria</option>
-                            <option value="3">United Kingdom</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label class="col-md-2 control-label" for="region">Region/Province</label>
-                    <div class="col-md-10">
-                        <select class="form-control" id="region" onchange="regionSelected()">
-                            <!--To be allocated-->
-                            <option value="0"></option>
-                        </select>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label class="col-md-2 control-label" for="state">State/County</label>
-                    <div class="col-md-10">
-                        <select class="form-control" id="state">
-                            <!--To be allocated-->
-                            <option value="0"></option>
-                        </select>
-                    </div>
-                </div>
-
-
-                <!--Profile information-->
-                <h4>Profile information</h4>
-                <hr />
-                <div class="form-group">
-                    <label class="col-md-2 control-label" for="gender">Gender</label>
-                    <div class="col-md-10">
-                        <select class="form-control" id="gender">
-                            <option value="1">Prefer not to say</option>
-                            <option value="2">Male</option>
-                            <option value="3">Female</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label class="col-md-2 control-label" for="age_range">Age range</label>
-                    <div class="col-md-10">
-                        <select class="form-control" id="age_range">
-                            <option value="1">Prefer not to say</option>
-                            <option value="8">Under 21</option>
-                            <option value="9">21-30</option>
-                            <option value="10">31-40</option>
-                            <option value="11">41-50</option>
-                            <option value="12">51-60</option>
-                            <option value="13">61-65</option>
-                            <option value="14">Over 65</option>
-                        </select>
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <div class="col-md-offset-2 col-md-10">
-                        <input id="submit_button" type="button" class="btn btn-default" value="Sign-up" onclick="submitSignUpForm()" />
-                    </div>
-                </div>
-            </form>
+            <div>&nbsp;</div>
         </div>
         <script type="text/javascript">init();</script>
 
-        <!-- END INCLUDE-->
-        <!--</div>-->
     </div>
 
-    <!--
+    <!-- END INCLUDE-->
 
-    <div id="products" class="what-edease-does-section">
-        <div class="container-flex">
-            <h1 class="h1-2 emplyers">What edease does</h1>
-            <div class="feature-wrap-top">
-                <div class="feature-column-content">
-                    <div class="content-block">
-                        <h2 class="content-h2 employers">Technology</h2>
-                        <p class="paragraph left-align employers">We have developed a free &amp; open platform for people to explore and learn about the skills needed in our rapidly changing world. edease enables people to learn these skills - whoever they are, wherever they are, and whenever they like.<br />
-                        </p>
-                    </div>
-                </div>
 
-                <div class="feature-column-image">
-                    <div class="feature-image-div">
-                        <img src="https://uploads-ssl.webflow.com/5eabc01e416cee2bb044b53a/5ec7cccb0a860f6c196cb7a0_cr%3Dw-600%2Ch-300.jpeg" alt="" class="feature-image" />
-                    </div>
-                </div>
-            </div>
-
-            <div class="feature-wrap">
-                <div class="feature-column-image">
-                    <div class="feature-image-div">
-                        <img src="https://uploads-ssl.webflow.com/5eabc01e416cee2bb044b53a/5eabd276b6d3c7b9db468eba_cr%3Dw-538%2Ch-269-2.jpeg" alt="" class="feature-image" />
-                    </div>
-                </div>
-
-                <div class="feature-column-content">
-                    <div class="content-block">
-                        <h2 class="content-h2 employers">Interactive Video<br /></h2>
-                        <p class="paragraph left-align employers">edease is all about video, the fancy sort! We deliver everything through interactive video, not only because it&#x27;s the most engaging but because it enables you to test yourself and discover new skills for new opportunities.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="feature-wrap">
-                <div class="feature-column-content">
-                    <div class="content-block">
-                        <h2 class="content-h2 employers">Connecting People<br /></h2>
-                        <p class="paragraph left-align employers">We enable people and companies to engage based upon the relevant skills they have for a job, not what grades they got at school. We help our community learn the skills companies look for and we help the companies find them.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="feature-column-image">
-                    <div class="feature-image-div">
-                        <img src="https://uploads-ssl.webflow.com/5eabc01e416cee2bb044b53a/5eabd27fcb6cf9350c5bd772_cr%3Dw-538%2Ch-269-3.jpeg" alt="" class="feature-image" />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    -->
-    <!--
-    <div class="cta-section">
-        <div class="container">
-            <div class="newsletter-block-2">
-                <h2 class="cta-h1">Let&#x27;s talk</h2>
-                <h2 class="cta-paragraph">We’d love to learn how we can work together</h2>
-                <div class="project_quote-2">
-                    <div class="quote_form-2">
-                        <div class="project_form-2">
-                            <div class="form05_top_tag">
-                                <img src="https://uploads-ssl.webflow.com/5cbc1cadfad96c3229989372/5d1b1fb7bc10243b51441d27_icon_form.svg" alt="" class="form05_icon" />
-                            </div>
-                            <h5 class="form05_h5-2">Have a coffee with our founder.</h5>
-                            <p class="paragraph left-align coffee">Complete this form and we contact you to arrange a time.</p>
-                            <div class="form05_form_block w-form">
-                                <form id="wf-form-FORM05" name="wf-form-FORM05" data-name="FORM05" class="form05_form">
-                                    <div class="form05_wrap">
-                                        <label for="NAME-4" class="form05_title">Hey, my name is</label>
-                                        <input type="text" id="NAME-3" name="NAME-3" data-name="NAME 3" maxlength="256" class="form05_input w-input" />
-                                    </div>
-                                    <div class="form05_wrap">
-                                        <label for="PHONE-4" class="form05_title">My phone number is</label>
-                                        <input type="tel" id="PHONE-3" name="PHONE-3" data-name="PHONE 3" maxlength="256" class="form05_input w-input" />
-                                    </div>
-                                    <div class="form05_wrap">
-                                        <label for="EMAIL-4" class="form05_title">My email address is</label>
-                                        <input type="email" id="EMAIL-3" name="EMAIL-3" data-name="EMAIL 3" maxlength="256" class="form05_input w-input" />
-                                    </div>
-                                    <div class="form05_wrap">
-                                        <label for="COMPANY_DETAILS-4" class="form05_title">My company is</label>
-                                        <input type="text" id="COMPANY_DETAILS-3" name="COMPANY_DETAILS-3" data-name="COMPANY DETAILS 3" maxlength="256" class="form05_input project w-input" />
-                                    </div>
-                                    <div class="form05_wrap">
-                                        <label for="ROLE_DETAILS-4" class="form05_title">My role is</label>
-                                        <input type="text" id="ROLE_DETAILS-3" name="ROLE_DETAILS-3" data-name="ROLE DETAILS 3" maxlength="256" class="form05_input project w-input" />
-                                    </div>
-                                    <input type="submit" value="Submit" data-wait="Please wait..." class="form05_button-2 w-button" />
-                                </form>
-                                <div class="form05_success w-form-done">
-                                    <div class="form_alert">
-                                        <div class="form_alert_wrap">
-                                            <img src="https://uploads-ssl.webflow.com/5cbc1cadfad96c3229989372/5ce9f7abc0831c3acc68fd41_check-white.svg" width="14" alt="" class="form_alert_icon" />
-                                            <div class="form_alert_line"></div>
-                                            <div class="form_alert_text white-text">Your information has been recieved.</div>
-                                        </div>
-                                        <img src="https://uploads-ssl.webflow.com/5cbc1cadfad96c3229989372/5ce9f70438469cb34ea8608b_x_white.svg" width="10" alt="" />
-                                    </div>
-                                </div>
-
-                                <div class="form05_error w-form-fail">
-                                    <div class="form_error">
-                                        <div class="form_error_wrap">
-                                            <img src="https://uploads-ssl.webflow.com/5cbc1cadfad96c3229989372/5ce9f7ab8cdd0a12142b971f_alert-circle-white.svg" width="16" alt="" class="form_error_icon" />
-                                            <div class="form_error_line"></div>
-                                            <div class="form_error_paragraph white-text">Looks like we&#x27;re having trouble</div>
-                                        </div>
-                                        <img src="https://uploads-ssl.webflow.com/5cbc1cadfad96c3229989372/5ce9f70438469cb34ea8608b_x_white.svg" width="10" alt="" />
-                                    </div>
-                                </div>
-                            </div>
-                            <a data-w-id="0483a5b3-a5e5-68c8-91ba-16835d04b152" href="#" class="link-block-2 w-inline-block">
-                                <img src="https://uploads-ssl.webflow.com/5d2d2687b4a76d21dc380ab3/5d2d277ab78ea80fc682d2ed_x_white.svg" alt="" class="exit" />
-                            </a>
-                        </div>
-                    </div>
-                    <a href="/contact" class="button-2 w-button">Tell us more</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    -->
 
     <div class="footer-section">
         <div class="container-flex left-align">
