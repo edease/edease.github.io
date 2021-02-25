@@ -64,7 +64,7 @@
 	--gpi_quad_text_colour: #17171b; /* Colour for quadrant text */
 	--gpi_quad_text_size: 28; /* N.B. just a number (no px) */
 	--gpi_quad_text_font: Arial; /* Do not include font size */
-	--gpi_quad_label_text_colour: #17171b; /* Colour for quadrant / STEN score axis label text */
+	--gpi_quad_label_text_colour: #ffffff; /* Colour for quadrant / STEN score axis label text */
 	--gpi_quad_label_text_size: 28; /* N.B. just a number (no px) */
 	--gpi_quad_label_text_font: Arial; /* Do not include font size */
 }
