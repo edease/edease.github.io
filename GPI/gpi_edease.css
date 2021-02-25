@@ -138,6 +138,7 @@
 	/* Headings H4 */
 	.gpi_h4 {
 		font-size: var(--gpi_h4_mob_size);
+		padding-top: 10px;
 	}
 }
 
@@ -163,6 +164,11 @@
 		color: var(--gpi_link_hover_col);
 		cursor: pointer;
 	}
+
+/* Label next to link */
+.gpi_label {
+	line-height:250%;
+}
 
 /* GPI component including menu and content */
 .gpi_component {
@@ -236,7 +242,7 @@
 /* Menu dropdown content (on clicking hamburger icon) */
 .gpi_dropdown {
 	position: absolute;
-	top: 65px;
+	top: 60px;
 	width: 400px;
 	text-align: left;
 	font-size: var(--gpi_text_size);
