@@ -61,8 +61,12 @@
 	--gpi_quad_axis_colour: #132238; /* Colour for quadrant / STEN score axes */
 	--gpi_quad_grid_colour: #c4c8cd; /* Colour for quadrant / STEN score grid */
 	--gpi_quad_marker_colour: #59c1d7; /* Colour for quadrant / STEN score location marker */
-	--gpi_quad_text_colour: #17171b; /* Colour for quadrant text */
+	--gpi_quad_text_colour: #ffffff; /* Colour for quadrant text */
+	--gpi_quad_text_size: 28; /* N.B. just a number (no px) */
+	--gpi_quad_text_font: Arial; /* Do not include font size */
 	--gpi_quad_label_text_colour: #ffffff; /* Colour for quadrant / STEN score axis label text */
+	--gpi_quad_label_text_size: 28; /* N.B. just a number (no px) */
+	--gpi_quad_label_text_font: Arial; /* Do not include font size */
 }
 
 /*
