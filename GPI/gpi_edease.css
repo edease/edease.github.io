@@ -404,6 +404,16 @@ div.gpi_surv_tr:nth-child(odd) {
 	text-align: center;
 }
 
+/* Radio button */
+.gpi_surv_radio {
+}
+
+@media only screen and (max-width: 768px) {
+	.gpi_surv_radio {
+		margin-left: 10pt;
+	}
+}
+
 /* Scale the radio buttons on the survey */
 input[type='radio'] {
 	transform: scale(1.5);
